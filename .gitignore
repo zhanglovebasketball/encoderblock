@@ -1,0 +1,22 @@
+# 忽略 IDE 配置文件（如 PyCharm/IntelliJ IDEA）
+.idea/
+
+# 忽略 Python 虚拟环境目录
+venv/
+
+# 忽略报告输出目录
+report/
+
+# ----------------- 推荐添加的其他常见忽略项 -----------------
+
+# 忽略编译/缓存文件
+__pycache__/
+*.pyc
+*.pyo
+*~
+*.log
+*.tmp
+.DS_Store
+
+# 忽略所有隐藏的临时文件
+.*.swp
