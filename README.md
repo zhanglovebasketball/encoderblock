@@ -1,8 +1,12 @@
 语言：Python
 快速上手开始训练：
+
 conda create -n transformer 
+
 conda activate transformer
+
 pip install -r requirements.txt
+
 python src/train.py
 
 现在设置的是4head,可以更改base.yaml设置其他的头数或者更改其他的模型超参数，之后同样执行python src/train.py
