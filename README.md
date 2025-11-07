@@ -15,6 +15,7 @@ python src/train.py
 消融实验（验证无位置编码的情况）：python src/ablation.py
 
 如果测试实验效果，可以把src/train.py中最后一行main()注释掉，然后把之前注释的恢复，可以得到损失、准确率和困惑度的计算。
+随机种子：seed=42
 
 结构：
 
